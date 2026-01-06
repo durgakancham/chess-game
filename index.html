@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chess Game</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="chess-app">
+    <h1>Chess Game</h1>
+
+    <div class="top-bar">
+      <div class="score">
+        <span>White: <span id="whiteScore">0</span></span>
+        <span>Black: <span id="blackScore">0</span></span>
+      </div>
+      <div class="turn">
+        Turn: <span id="turnDisplay">White</span>
+      </div>
+      <button id="resetBtn">New Game</button>
+    </div>
+
+    <div id="messageBar" class="message-bar">
+      Game on! Play your best moves.
+    </div>
+
+    <div class="board-wrapper">
+      <div id="board" class="board"></div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
