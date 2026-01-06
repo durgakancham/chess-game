@@ -14,7 +14,7 @@ A fully functional **Chess Game** built using **pure HTML, CSS, and JavaScript**
 ## 🚀 Live Demo
 
 👉 **Play the game here:**  
-🔗 https://durgakancham.github.io/chess-game/
+🔗 https://tourmaline-paletas-59fd27.netlify.app/
 
 ---
 
